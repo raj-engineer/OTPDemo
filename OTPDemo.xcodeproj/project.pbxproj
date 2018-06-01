@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72939C3220C128DB00533835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C3120C128DB00533835 /* AppDelegate.swift */; };
+		72939C3720C128DB00533835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72939C3520C128DB00533835 /* Main.storyboard */; };
+		72939C3920C128DB00533835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72939C3820C128DB00533835 /* Assets.xcassets */; };
+		72939C3C20C128DB00533835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72939C3A20C128DB00533835 /* LaunchScreen.storyboard */; };
+		72939C4720C128DB00533835 /* OTPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C4620C128DB00533835 /* OTPDemoTests.swift */; };
+		72939C5220C128DB00533835 /* OTPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C5120C128DB00533835 /* OTPDemoUITests.swift */; };
+		72939C6120C1293700533835 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C6020C1293700533835 /* Extensions.swift */; };
+		72939C6320C129BA00533835 /* InputOTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C6220C129BA00533835 /* InputOTPVC.swift */; };
+		72939C6620C1319900533835 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72939C6520C1319900533835 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72939C4320C128DB00533835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72939C2620C128DB00533835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72939C2D20C128DB00533835;
+			remoteInfo = OTPDemo;
+		};
+		72939C4E20C128DB00533835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72939C2620C128DB00533835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72939C2D20C128DB00533835;
+			remoteInfo = OTPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72939C2E20C128DB00533835 /* OTPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72939C3120C128DB00533835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72939C3620C128DB00533835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72939C3820C128DB00533835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72939C3B20C128DB00533835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72939C3D20C128DB00533835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72939C4220C128DB00533835 /* OTPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72939C4620C128DB00533835 /* OTPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPDemoTests.swift; sourceTree = "<group>"; };
+		72939C4820C128DB00533835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72939C4D20C128DB00533835 /* OTPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72939C5120C128DB00533835 /* OTPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPDemoUITests.swift; sourceTree = "<group>"; };
+		72939C5320C128DB00533835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72939C6020C1293700533835 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		72939C6220C129BA00533835 /* InputOTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOTPVC.swift; sourceTree = "<group>"; };
+		72939C6520C1319900533835 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72939C2B20C128DB00533835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C3F20C128DB00533835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C4A20C128DB00533835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72939C2520C128DB00533835 = {
+			isa = PBXGroup;
+			children = (
+				72939C3020C128DB00533835 /* OTPDemo */,
+				72939C4520C128DB00533835 /* OTPDemoTests */,
+				72939C5020C128DB00533835 /* OTPDemoUITests */,
+				72939C2F20C128DB00533835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72939C2F20C128DB00533835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72939C2E20C128DB00533835 /* OTPDemo.app */,
+				72939C4220C128DB00533835 /* OTPDemoTests.xctest */,
+				72939C4D20C128DB00533835 /* OTPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72939C3020C128DB00533835 /* OTPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				72939C6420C1304700533835 /* Controllers */,
+				72939C5F20C1292600533835 /* Extensions */,
+				72939C3120C128DB00533835 /* AppDelegate.swift */,
+				72939C3520C128DB00533835 /* Main.storyboard */,
+				72939C3820C128DB00533835 /* Assets.xcassets */,
+				72939C3A20C128DB00533835 /* LaunchScreen.storyboard */,
+				72939C3D20C128DB00533835 /* Info.plist */,
+			);
+			path = OTPDemo;
+			sourceTree = "<group>";
+		};
+		72939C4520C128DB00533835 /* OTPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				72939C4620C128DB00533835 /* OTPDemoTests.swift */,
+				72939C4820C128DB00533835 /* Info.plist */,
+			);
+			path = OTPDemoTests;
+			sourceTree = "<group>";
+		};
+		72939C5020C128DB00533835 /* OTPDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72939C5120C128DB00533835 /* OTPDemoUITests.swift */,
+				72939C5320C128DB00533835 /* Info.plist */,
+			);
+			path = OTPDemoUITests;
+			sourceTree = "<group>";
+		};
+		72939C5F20C1292600533835 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72939C6020C1293700533835 /* Extensions.swift */,
+				72939C6520C1319900533835 /* Constants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72939C6420C1304700533835 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72939C6220C129BA00533835 /* InputOTPVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72939C2D20C128DB00533835 /* OTPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72939C5620C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemo" */;
+			buildPhases = (
+				72939C2A20C128DB00533835 /* Sources */,
+				72939C2B20C128DB00533835 /* Frameworks */,
+				72939C2C20C128DB00533835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPDemo;
+			productName = OTPDemo;
+			productReference = 72939C2E20C128DB00533835 /* OTPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72939C4120C128DB00533835 /* OTPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72939C5920C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemoTests" */;
+			buildPhases = (
+				72939C3E20C128DB00533835 /* Sources */,
+				72939C3F20C128DB00533835 /* Frameworks */,
+				72939C4020C128DB00533835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72939C4420C128DB00533835 /* PBXTargetDependency */,
+			);
+			name = OTPDemoTests;
+			productName = OTPDemoTests;
+			productReference = 72939C4220C128DB00533835 /* OTPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72939C4C20C128DB00533835 /* OTPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72939C5C20C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemoUITests" */;
+			buildPhases = (
+				72939C4920C128DB00533835 /* Sources */,
+				72939C4A20C128DB00533835 /* Frameworks */,
+				72939C4B20C128DB00533835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72939C4F20C128DB00533835 /* PBXTargetDependency */,
+			);
+			name = OTPDemoUITests;
+			productName = OTPDemoUITests;
+			productReference = 72939C4D20C128DB00533835 /* OTPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72939C2620C128DB00533835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Rajeshkumar;
+				TargetAttributes = {
+					72939C2D20C128DB00533835 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					72939C4120C128DB00533835 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72939C2D20C128DB00533835;
+					};
+					72939C4C20C128DB00533835 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72939C2D20C128DB00533835;
+					};
+				};
+			};
+			buildConfigurationList = 72939C2920C128DB00533835 /* Build configuration list for PBXProject "OTPDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72939C2520C128DB00533835;
+			productRefGroup = 72939C2F20C128DB00533835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72939C2D20C128DB00533835 /* OTPDemo */,
+				72939C4120C128DB00533835 /* OTPDemoTests */,
+				72939C4C20C128DB00533835 /* OTPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72939C2C20C128DB00533835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72939C3C20C128DB00533835 /* LaunchScreen.storyboard in Resources */,
+				72939C3920C128DB00533835 /* Assets.xcassets in Resources */,
+				72939C3720C128DB00533835 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C4020C128DB00533835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C4B20C128DB00533835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72939C2A20C128DB00533835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72939C6120C1293700533835 /* Extensions.swift in Sources */,
+				72939C3220C128DB00533835 /* AppDelegate.swift in Sources */,
+				72939C6320C129BA00533835 /* InputOTPVC.swift in Sources */,
+				72939C6620C1319900533835 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C3E20C128DB00533835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72939C4720C128DB00533835 /* OTPDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72939C4920C128DB00533835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72939C5220C128DB00533835 /* OTPDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72939C4420C128DB00533835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72939C2D20C128DB00533835 /* OTPDemo */;
+			targetProxy = 72939C4320C128DB00533835 /* PBXContainerItemProxy */;
+		};
+		72939C4F20C128DB00533835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72939C2D20C128DB00533835 /* OTPDemo */;
+			targetProxy = 72939C4E20C128DB00533835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72939C3520C128DB00533835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72939C3620C128DB00533835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72939C3A20C128DB00533835 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72939C3B20C128DB00533835 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72939C5420C128DB00533835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72939C5520C128DB00533835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72939C5720C128DB00533835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
+				INFOPLIST_FILE = OTPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.otp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "738340d1-c6bb-4c61-98f9-99061e56b6eb";
+				PROVISIONING_PROFILE_SPECIFIER = customTeam_development;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72939C5820C128DB00533835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
+				INFOPLIST_FILE = OTPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.otp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "738340d1-c6bb-4c61-98f9-99061e56b6eb";
+				PROVISIONING_PROFILE_SPECIFIER = customTeam_development;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72939C5A20C128DB00533835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppyPieLLP.OTPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPDemo.app/OTPDemo";
+			};
+			name = Debug;
+		};
+		72939C5B20C128DB00533835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppyPieLLP.OTPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPDemo.app/OTPDemo";
+			};
+			name = Release;
+		};
+		72939C5D20C128DB00533835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppyPieLLP.OTPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPDemo;
+			};
+			name = Debug;
+		};
+		72939C5E20C128DB00533835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OTPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppyPieLLP.OTPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OTPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72939C2920C128DB00533835 /* Build configuration list for PBXProject "OTPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72939C5420C128DB00533835 /* Debug */,
+				72939C5520C128DB00533835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72939C5620C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72939C5720C128DB00533835 /* Debug */,
+				72939C5820C128DB00533835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72939C5920C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72939C5A20C128DB00533835 /* Debug */,
+				72939C5B20C128DB00533835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72939C5C20C128DB00533835 /* Build configuration list for PBXNativeTarget "OTPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72939C5D20C128DB00533835 /* Debug */,
+				72939C5E20C128DB00533835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72939C2620C128DB00533835 /* Project object */;
+}
